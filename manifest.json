@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Word Definition Finder",
+  "version": "1.0",
+  "description": "Find the definition of selected words",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
