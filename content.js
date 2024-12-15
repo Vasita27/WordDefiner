@@ -1,8 +1,6 @@
 document.addEventListener('selectionchange', async () => {
   const selectedText = window.getSelection().toString().trim();
-  console.log(selectedText); // Getting the selected text  
   let definitionBox = document.getElementById('definition-box');
-
   // Creating the definition box if it doesn't exist
   if (!definitionBox) {
     definitionBox = document.createElement('div');
