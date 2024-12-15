@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Word Definition Finder",
+  "name": "V-ast : Your vast vocabulary assisstant",
   "version": "1.0",
   "description": "Find the definition of selected words",
   "permissions": ["activeTab"],
   "icons": {
-    "16": "icons/icon500.png",
-    "48": "icons/icon500.png",
-    "128": "icons/icon500.png"
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon120.png"
   },
   "content_scripts": [
     {
