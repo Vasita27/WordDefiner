@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "V-ast : Your vast vocabulary assisstant",
+  "name": "V-ast : Your vast vocabulary assistant",
   "version": "1.0",
   "description": "Find the definition of selected words",
   "permissions": ["activeTab"],
