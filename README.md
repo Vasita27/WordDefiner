@@ -1,4 +1,4 @@
-# Text Definition Extension
+# WordDefiner Extension
 
 This project is a Chrome Extension that shows the definition of a selected word or phrase on a web page. When a user highlights a word, the extension fetches its definition from a Dictionary API and displays it in a floating box near the selection.
 
